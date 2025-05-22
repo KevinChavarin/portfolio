@@ -1,0 +1,9 @@
+{
+    "build": {
+        "command": "yarn build",
+        "output": "dist"
+    },
+    "start": {
+        "command": "yarn start"
+    }
+}
