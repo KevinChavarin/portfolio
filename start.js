@@ -2,7 +2,7 @@
 import { createServer } from 'http';
 import app from './dist/server/entry.mjs';  // Ruta generada por Astro
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 const server = createServer(app);
 
 server.listen(port, () => {
